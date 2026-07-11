@@ -1,0 +1,9 @@
+[project]
+name = "autobiography-without-a-self-sim"
+version = "0.1.0"
+description = "Closure search for autobiographically self-predictable observables of finite driven systems."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+package = false
