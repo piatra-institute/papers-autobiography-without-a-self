@@ -1,14 +1,33 @@
 slug: autobiography-without-a-self
 web_slug: autobiography-without-a-self
-title: "Autobiography Without a Self: Self-Historical Memory as Holonomy of the Minimal Realization"
-header: "Autobiography Without a Self"
-created: "2026-07"        # inception month (drives YYYY/MM archive path)
-date: "July 2026"             # publication month, e.g. "May 2026" (shown on web)
+title: 'Autobiography Without a Self: Self-Historical Memory as Holonomy of the Minimal Realization'
+header: Autobiography Without a Self
+created: 2026-07
+date: July 2026
 paper_dir: paper
 has_simulation: true
-claims_target: results.json      # results.json | claim-ledger | none
+claims_target: results.json
 repo: git@github.com:piatra-institute/papers-autobiography-without-a-self.git
 github: https://github.com/piatra-institute/papers-autobiography-without-a-self
-status: published             # draft | built | published
-abstract: |-
-  A driven deterministic system can be read as carrying a memory of its own history: fibre the state space over an observable self, quotient each fibre by future behaviour, and let the input words that return the observable to its value act on the quotient as a monoid of closed self-histories. A recent proposal builds nine invariants on this picture and reads them as autobiographical structure, a system's representation of its past selves. This paper shows the construction is classical. The autobiographical fibre is the output-fibre of the Nerode minimal realization, and the self-history monoid acting on it is the fibre-restricted transition monoid, which is the Krohn-Rhodes holonomy tile; the nine invariants reduce term by term to automata, semigroup, and Koopman quantities. The proposed autobiographical curvature is ill-posed, since connection holonomy is invertible while the self-history monoid contains the erasures the construction is built to represent, and the fibres change size from one observable value to the next. The self-versus-environment defect measures observability of hidden inputs rather than aboutness: a system that copies its last input scores as maximally self-remembering, and the number depends on the observable chosen by hand. One question survives the reductions, whether a canonical self can be discovered rather than declared. The autobiographically self-predictable observables are closed under common refinement, proved here, and across 150,964 finite systems they never once fail it; under coarsening they fail in 54,300 of the 65,536 systems with four states and two inputs (82.9 percent), rising to 99.8 percent at six states, with a four-state minimal counterexample exhibited in full. The self-predictable observables form a closure system with no canonical coarsest member, a structure that coincides with informational closure. A system remembers its history; it does not, on this evidence, thereby have a self.
+status: published
+abstract: 'A driven deterministic system $(Z, U, F)$ can be read as carrying a memory of its own history:
+  fibre the state space over an observable self $x = \pi(z)$, quotient each fibre by future behaviour,
+  and let the input words that return the observable to $x$ act on the quotient as a monoid of closed
+  self-histories. A recent proposal builds nine invariants on this picture and interprets them as autobiographical
+  structure. The construction is classical. The autobiographical fibre $A_x$ is the output-$x$ fibre of
+  the Nerode minimal realization, the self-history monoid is the fibre-restricted transition monoid, which
+  is the Krohn-Rhodes holonomy tile, and the nine invariants reduce term by term to automata, semigroup,
+  and Koopman quantities. The proposed curvature $\Omega = dA + A \wedge A$ is ill-posed, because connection
+  holonomy is invertible while the self-history monoid contains erasures, and because fibre size varies
+  with the observable value. The self-versus-environment defect $\Delta_{\mathrm{ext}}$ measures observability
+  of hidden inputs: a system that copies its last input scores as maximally self-remembering, and the
+  value depends on a hand-chosen observable. The remaining question is whether a canonical self can be
+  discovered from the dynamics. Self-predictable observables are closed under common refinement (proved,
+  and confirmed without exception across $150{,}964$ finite systems) but not under coarsening, which fails
+  in $54{,}300$ of the $65{,}536$ systems with four states and two inputs ($82.9\%$) and in $99.8\%$ of
+  sampled six-state systems; a minimal four-state counterexample is given. The self-predictable observables
+  form a closure system without a canonical coarsest nontrivial member, the same structure as informational
+  closure.'
+web_blurb: The proposed autobiographical invariants of a driven system reduce to the minimal realization
+  and its Krohn-Rhodes holonomy. Self-predictable observables are closed under common refinement but not
+  under coarsening, so no canonical coarsest self exists.

@@ -2,6 +2,15 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-09-23 — prose revision
+
+Prose rewritten against the house standards. Headings made descriptive (Abstract, 1 Introduction, 2 The construction, 3 Identification with the minimal realization [3.1 The autobiographical fibre, 3.2 The self-history monoid as holonomy tile, 3.3 The nine invariants], 4 The autobiographical curvature is ill-posed, 5 The self-versus-environment defect, 6 Discovering the self from the dynamics [6.1-6.4], 7 Open problem: discovered selves and Markov blankets, 8 Limitations, 9 Conclusion). "Rather than" 7 -> 0, "this paper" 2 -> 0, "worth" 2 -> 0, "merely" 1 -> 0.
+
+Number audit: every sweep count checked against simulation/output/results.json (16, 729, 19,683, 65,536/54,300, 25,000/24,443, 25,000/12,244, 15,000/14,975; total 150,964; zero common-refinement violations; rates 82.9, 97.8, 49.0, 99.8 percent) and the counterexample transition table and witness checked against min_coarser_union_counterexample. No discrepancies.
+Corrections of statement: (1) "under coarsening they fail generically" overstated the four-state three-input sample (49.0 percent); the text now says the failure occurs in most systems with two inputs and reports the 49.0 percent figure. (2) The closure operator was described as giving "the coarsest resolution one must accept above a given observable"; it gives the finest closed coarsening, and the text now says so. (3) "No canonical coarsest member/self" is qualified as nontrivial, since the one-block partition is always closed and is trivially the coarsest.
+Table rendering fix: "19{,}683"-style separators inside the pipe table printed as literal braces; replaced by plain commas.
+Grid-artifact audit: the computation is an exhaustive/fixed-seed-sampled enumeration of discrete systems and partitions; all counts are integers and no threshold or optimum is interpolated, so nothing to refine. The simulation was not re-run (no figures; code unchanged).
+
 ## 2026-07-11 — draft, simulation, and build
 
 Scope: initial construction of the paper from a multi-agent adversarial audit of

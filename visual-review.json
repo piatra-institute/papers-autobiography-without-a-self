@@ -1,0 +1,20 @@
+{
+  "pdf_sha256": "224744295c933850d622dea2148135c88055d337c6692dcd9a2db4170cca4b4f",
+  "page_count": 12,
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "all_pages_inspected": true,
+  "notes": "All 12 pages inspected after the prose revision; the sweep table's thousands separators, which rendered as literal braces ('19{,}683'), now render as plain commas; no figures in this paper. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (179e5a8467ba to 224744295c93); the rendered text is byte-for-byte identical and no page was re-inspected."
+}

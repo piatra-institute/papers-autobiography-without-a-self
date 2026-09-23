@@ -1,0 +1,10 @@
+{
+  "manuscript_sha256": "d2ea3d09f98c2ae015e952253f418357181dbac30b6090ccd9dfc672a06ad42b",
+  "full_read": true,
+  "argument_review": true,
+  "structure_review": true,
+  "voice_review": true,
+  "source_review": true,
+  "final_read": true,
+  "notes": "Prose revision: descriptive headings replace aphoristic ones; self-reference, reflexive contrasts, epigrammatic closers removed; abstract cut from ~330 to 257 words; Limitations and Conclusion split out of the former closing section; every number and citation preserved."
+}
