@@ -23,7 +23,7 @@ Friston, K. (2013). Life as we know it. *Journal of the Royal Society Interface*
 
 Hopcroft, J. (1971). An n log n algorithm for minimizing states in a finite automaton. In *Theory of Machines and Computations* (pp. 189–196). New York: Academic Press. — T1; automaton minimization levels; supports §3.3, retrieval depth as distinguishing-word length.
 
-Kirchhoff, M., Parr, T., Palacios, E., Friston, K., and Kiebel, S. (2018). The Markov blankets of life: autonomy, active inference and the free energy principle. *Journal of the Royal Society Interface*, 15(138), 20170792. — T1; blanket partition of internal and external states; supports §7.
+Kirchhoff, M., Parr, T., Palacios, E., Friston, K., and Kiverstein, J. (2018). The Markov blankets of life: autonomy, active inference and the free energy principle. *Journal of the Royal Society Interface*, 15(138), 20170792. — T1; blanket partition of internal and external states; supports §7.
 
 Kobayashi, S., and Nomizu, K. (1963). *Foundations of Differential Geometry, Volume I*. New York: Interscience. — T1; invertibility of connection parallel transport; supports the §4 first obstruction.
 
@@ -35,7 +35,7 @@ Levin, M. (2022). Technological approach to mind everywhere: an experimentally-g
 
 Littman, M. L., Sutton, R. S., and Singh, S. (2002). Predictive representations of state. In *Advances in Neural Information Processing Systems 14* (pp. 1555–1561). Cambridge, MA: MIT Press. — T1; predictive-state representations; supports §3.1, the fibre as deterministic predictive state.
 
-Markevich, N. I., Hornberg, J. B., and Kholodenko, B. N. (2004). Signaling switches and bistability arising from multisite phosphorylation in protein kinase cascades. *Journal of Cell Biology*, 164(3), 353–359. — T1; the bistable MAPK cascade; supports §1, the hysteresis that stores an acquired state.
+Markevich, N. I., Hoek, J. B., and Kholodenko, B. N. (2004). Signaling switches and bistability arising from multisite phosphorylation in protein kinase cascades. *Journal of Cell Biology*, 164(3), 353–359. — T1; the bistable MAPK cascade; supports §1, the hysteresis that stores an acquired state.
 
 Massey, J. L. (1990). Causality, feedback and directed information. In *Proceedings of the International Symposium on Information Theory and its Applications (ISITA-90)* (pp. 303–305). — T1; directed information; supports §5, the stochastic cousin of the defect.
 
@@ -48,3 +48,8 @@ Rutten, J. J. M. M. (2000). Universal coalgebra: a theory of systems. *Theoretic
 Schreiber, T. (2000). Measuring information transfer. *Physical Review Letters*, 85(2), 461–464. — T1; transfer entropy; supports §5.
 
 Shalizi, C. R., and Crutchfield, J. P. (2001). Computational mechanics: pattern and prediction, structure and simplicity. *Journal of Statistical Physics*, 104(3), 817–879. — T1; causal states and statistical complexity as minimal predictive structure; supports §3.1 and §3.3.
+
+## Structured bibliography (2026-09-23)
+
+The inline reference list was migrated to references.yaml (CSL) and in-text citations to Pandoc [@id] syntax. Sixteen entries were matched automatically in Crossref and resolved through doi.org; fernando2009 and krohn1965 were matched by hand to their DOI records. Four entries without DOIs were entered by hand: eilenberg1976 and kobayashi1963 (books, from the legacy text), littman2002 (confirmed on the NeurIPS 2001 proceedings page, which lists the paper in Advances in Neural Information Processing Systems 14) and massey1990 (ISITA-90 proceedings, pp. 303-305; the proceedings volume could not be retrieved online, so the entry keeps the details of the legacy text). Source claims in claims.yaml were checked against Crossref or OpenAlex abstracts and the NeurIPS abstract page.
+The DOI records correct two author lists. For kirchhoff2018 (10.1098/rsif.2017.0792) the fifth author is Julian Kiverstein; the legacy entry had named S. Kiebel. For markevich2004 (10.1083/jcb.200308060) the second author is Jan B. Hoek; the legacy entry and the introduction had named Hornberg. The introduction now cites the work as "Markevich et al. (2004)" and the entries above were corrected.

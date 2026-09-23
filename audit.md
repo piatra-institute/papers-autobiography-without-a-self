@@ -2,6 +2,17 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-09-23 — structured-evidence migration
+
+Structured-evidence migration (references and claims).
+- references.yaml: 22 CSL entries. 16 matched automatically in Crossref and resolved through doi.org; fernando2009 and krohn1965 matched by hand to their DOI records. Entered by hand without DOIs: eilenberg1976, kobayashi1963, littman2002 (confirmed on the NeurIPS 2001 proceedings page) and massey1990 (proceedings not retrievable online; details kept from the legacy text). In-text author-year citations converted to Pandoc [@id] syntax; the legacy reference list replaced by the citeproc-rendered list (Chicago author-date).
+- Corrections: kirchhoff2018 fifth author Kiebel -> Kiverstein (DOI 10.1098/rsif.2017.0792); markevich2004 second author Hornberg -> Hoek (DOI 10.1083/jcb.200308060); the introduction had named Hornberg and now renders "Markevich et al. (2004)". sources.md entries corrected.
+- Format changes required by the migration: three proofs containing citations were rewritten from \begin{proof}...\end{proof} blocks to inline raw-LaTeX markers so that Pandoc processes the citations inside them (text unchanged); "@shalizi2001." written as "@{shalizi2001}." for the checker; the numerals $150{,}964$, $54{,}300$ and $65{,}536$ written as plain 150,964, 54,300 and 65,536 so that they bind to results.json (rendered text unchanged).
+- claims.yaml: 49 claims (24 computation, 11 source, 3 definition, 1 assumption, 10 interpretation). Every sweep number in the abstract, Sections 6.2-6.3, the failure table and the conclusion is bound to simulation/output/results.json. The propositions are bound as interpretations proved in the text.
+- Not bound (support not retrievable): Nerode 1958, Rutten 2000, Krohn and Rhodes 1965, Eilenberg 1976, Hopcroft 1971, Kobayashi and Nomizu 1963, Barnett and Crutchfield 2015, Massey 1990, Bertschinger et al. 2008 (no abstracts); the identification of informational closure with the same Moore-family structure in Bertschinger et al. and Pfante et al. (the Pfante abstract confirms closed descriptions of levels under coarse-graining only).
+- Execution receipt: run id closure (uv run python run_all.py). The first attempt created simulation/uv.lock (no lock was committed) and was recorded NEEDS_REVIEW; the rerun passed. results.json reproduced except /meta/runtime_seconds (89.3 -> 85.7, wall-clock timing, not bound); uv.lock is now committed.
+- metadata claims_target: claim-ledger.
+
 ## 2026-09-23 — prose revision
 
 Prose rewritten against the house standards. Headings made descriptive (Abstract, 1 Introduction, 2 The construction, 3 Identification with the minimal realization [3.1 The autobiographical fibre, 3.2 The self-history monoid as holonomy tile, 3.3 The nine invariants], 4 The autobiographical curvature is ill-posed, 5 The self-versus-environment defect, 6 Discovering the self from the dynamics [6.1-6.4], 7 Open problem: discovered selves and Markov blankets, 8 Limitations, 9 Conclusion). "Rather than" 7 -> 0, "this paper" 2 -> 0, "worth" 2 -> 0, "merely" 1 -> 0.

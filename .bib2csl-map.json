@@ -1,0 +1,235 @@
+[
+ {
+  "id": "barnett2015",
+  "families": [
+   "Barnett",
+   "Crutchfield"
+  ],
+  "authors_text": "Barnett, N., and Crutchfield, J. P.",
+  "year": "2015",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "bertschinger2008",
+  "families": [
+   "Bertschinger",
+   "Olbrich",
+   "Ay",
+   "Jost"
+  ],
+  "authors_text": "Bertschinger, N., Olbrich, E., Ay, N., and Jost, J.",
+  "year": "2008",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "biehl2021",
+  "families": [
+   "Biehl",
+   "Pollock",
+   "Kanai"
+  ],
+  "authors_text": "Biehl, M., Pollock, F. A., and Kanai, R.",
+  "year": "2021",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "biswas2021",
+  "families": [
+   "Biswas",
+   "Manicka",
+   "Hoel",
+   "Levin"
+  ],
+  "authors_text": "Biswas, S., Manicka, S., Hoel, E., and Levin, M.",
+  "year": "2021",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "crutchfield1989",
+  "families": [
+   "Crutchfield",
+   "Young"
+  ],
+  "authors_text": "Crutchfield, J. P., and Young, K.",
+  "year": "1989",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "eilenberg1976",
+  "families": [
+   "Eilenberg"
+  ],
+  "authors_text": "Eilenberg, S.",
+  "year": "1976",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "fernando2009",
+  "families": [
+   "Fernando",
+   "Liekens",
+   "Bingle",
+   "Beck",
+   "Lenser",
+   "Stekel",
+   "Rowe"
+  ],
+  "authors_text": "Fernando, C. T., Liekens, A. M. L., Bingle, L. E. H., Beck, C., Lenser, T., Stekel, D. J., and Rowe, J. E.",
+  "year": "2009",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "friston2013",
+  "families": [
+   "Friston"
+  ],
+  "authors_text": "Friston, K.",
+  "year": "2013",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "hopcroft1971",
+  "families": [
+   "Hopcroft"
+  ],
+  "authors_text": "Hopcroft, J.",
+  "year": "1971",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "kirchhoff2018",
+  "families": [
+   "Kirchhoff",
+   "Parr",
+   "Palacios",
+   "Friston",
+   "Kiebel"
+  ],
+  "authors_text": "Kirchhoff, M., Parr, T., Palacios, E., Friston, K., and Kiebel, S.",
+  "year": "2018",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "kobayashi1963",
+  "families": [
+   "Kobayashi",
+   "Nomizu"
+  ],
+  "authors_text": "Kobayashi, S., and Nomizu, K.",
+  "year": "1963",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "krakauer2020",
+  "families": [
+   "Krakauer",
+   "Bertschinger",
+   "Olbrich",
+   "Flack",
+   "Ay"
+  ],
+  "authors_text": "Krakauer, D., Bertschinger, N., Olbrich, E., Flack, J. C., and Ay, N.",
+  "year": "2020",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "krohn1965",
+  "families": [
+   "Krohn",
+   "Rhodes"
+  ],
+  "authors_text": "Krohn, K., and Rhodes, J.",
+  "year": "1965",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "levin2022",
+  "families": [
+   "Levin"
+  ],
+  "authors_text": "Levin, M.",
+  "year": "2022",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "littman2002",
+  "families": [
+   "Littman",
+   "Sutton",
+   "Singh"
+  ],
+  "authors_text": "Littman, M. L., Sutton, R. S., and Singh, S.",
+  "year": "2002",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "markevich2004",
+  "families": [
+   "Markevich",
+   "Hornberg",
+   "Kholodenko"
+  ],
+  "authors_text": "Markevich, N. I., Hornberg, J. B., and Kholodenko, B. N.",
+  "year": "2004",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "massey1990",
+  "families": [
+   "Massey"
+  ],
+  "authors_text": "Massey, J. L.",
+  "year": "1990",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "nerode1958",
+  "families": [
+   "Nerode"
+  ],
+  "authors_text": "Nerode, A.",
+  "year": "1958",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "pfante2014",
+  "families": [
+   "Pfante",
+   "Bertschinger",
+   "Olbrich",
+   "Ay",
+   "Jost"
+  ],
+  "authors_text": "Pfante, O., Bertschinger, N., Olbrich, E., Ay, N., and Jost, J.",
+  "year": "2014",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "rutten2000",
+  "families": [
+   "Rutten"
+  ],
+  "authors_text": "Rutten, J. J. M. M.",
+  "year": "2000",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "schreiber2000",
+  "families": [
+   "Schreiber"
+  ],
+  "authors_text": "Schreiber, T.",
+  "year": "2000",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "shalizi2001",
+  "families": [
+   "Shalizi",
+   "Crutchfield"
+  ],
+  "authors_text": "Shalizi, C. R., and Crutchfield, J. P.",
+  "year": "2001",
+  "status": "VERIFIED-CROSSREF"
+ }
+]

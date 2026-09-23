@@ -6,7 +6,7 @@ created: 2026-07
 date: July 2026
 paper_dir: paper
 has_simulation: true
-claims_target: results.json
+claims_target: claim-ledger
 repo: git@github.com:piatra-institute/papers-autobiography-without-a-self.git
 github: https://github.com/piatra-institute/papers-autobiography-without-a-self
 status: published
@@ -23,10 +23,10 @@ abstract: 'A driven deterministic system $(Z, U, F)$ can be read as carrying a m
   of hidden inputs: a system that copies its last input scores as maximally self-remembering, and the
   value depends on a hand-chosen observable. The remaining question is whether a canonical self can be
   discovered from the dynamics. Self-predictable observables are closed under common refinement (proved,
-  and confirmed without exception across $150{,}964$ finite systems) but not under coarsening, which fails
-  in $54{,}300$ of the $65{,}536$ systems with four states and two inputs ($82.9\%$) and in $99.8\%$ of
-  sampled six-state systems; a minimal four-state counterexample is given. The self-predictable observables
-  form a closure system without a canonical coarsest nontrivial member, the same structure as informational
+  and confirmed without exception across 150,964 finite systems) but not under coarsening, which fails
+  in 54,300 of the 65,536 systems with four states and two inputs ($82.9\%$) and in $99.8\%$ of sampled
+  six-state systems; a minimal four-state counterexample is given. The self-predictable observables form
+  a closure system without a canonical coarsest nontrivial member, the same structure as informational
   closure.'
 web_blurb: The proposed autobiographical invariants of a driven system reduce to the minimal realization
   and its Krohn-Rhodes holonomy. Self-predictable observables are closed under common refinement but not

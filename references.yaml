@@ -1,0 +1,381 @@
+# CSL references with stable IDs; cite with Pandoc [@id] syntax.
+# Migrated from the legacy inline bibliography. Entries with a DOI were resolved through doi.org
+# content negotiation (CSL-JSON) and checked for year and title; others were matched in Crossref
+# or entered by hand. Provenance per entry is in sources.md.
+references:
+- id: barnett2015
+  type: article-journal
+  title: 'Computational mechanics of input–output processes: Structured transformations and the ε-transducer'
+  author:
+  - given: Nix
+    family: Barnett
+  - given: James P.
+    family: Crutchfield
+  container-title: Journal of Statistical Physics
+  volume: '161'
+  issue: '2'
+  page: 404-451
+  DOI: 10.1007/s10955-015-1327-5
+  issued:
+    date-parts:
+    - - 2015
+- id: bertschinger2008
+  type: article-journal
+  title: 'Autonomy: An information theoretic perspective'
+  author:
+  - given: Nils
+    family: Bertschinger
+  - given: Eckehard
+    family: Olbrich
+  - given: Nihat
+    family: Ay
+  - given: Jürgen
+    family: Jost
+  container-title: Biosystems
+  volume: '91'
+  issue: '2'
+  page: 331-345
+  DOI: 10.1016/j.biosystems.2007.05.018
+  issued:
+    date-parts:
+    - - 2008
+- id: biehl2021
+  type: article-journal
+  title: A Technical Critique of Some Parts of the Free Energy Principle
+  author:
+  - given: Martin
+    family: Biehl
+  - given: Felix A.
+    family: Pollock
+  - given: Ryota
+    family: Kanai
+  container-title: Entropy
+  volume: '23'
+  issue: '3'
+  page: '293'
+  DOI: 10.3390/e23030293
+  issued:
+    date-parts:
+    - - 2021
+- id: biswas2021
+  type: article-journal
+  title: 'Gene regulatory networks exhibit several kinds of memory: Quantification of memory in biological
+    and random transcriptional networks'
+  author:
+  - given: Surama
+    family: Biswas
+  - given: Santosh
+    family: Manicka
+  - given: Erik
+    family: Hoel
+  - given: Michael
+    family: Levin
+  container-title: iScience
+  volume: '24'
+  issue: '3'
+  page: '102131'
+  DOI: 10.1016/j.isci.2021.102131
+  issued:
+    date-parts:
+    - - 2021
+- id: crutchfield1989
+  type: article-journal
+  title: Inferring statistical complexity
+  author:
+  - given: James P.
+    family: Crutchfield
+  - given: Karl
+    family: Young
+  container-title: Physical Review Letters
+  volume: '63'
+  issue: '2'
+  page: 105-108
+  DOI: 10.1103/physrevlett.63.105
+  issued:
+    date-parts:
+    - - 1989
+- id: eilenberg1976
+  type: book
+  title: Automata, Languages, and Machines, Volume B
+  author:
+  - family: Eilenberg
+    given: Samuel
+  publisher: Academic Press
+  publisher-place: New York
+  issued:
+    date-parts:
+    - - 1976
+- id: fernando2009
+  type: article-journal
+  title: Molecular circuits for associative learning in single-celled organisms
+  author:
+  - given: Chrisantha T.
+    family: Fernando
+  - given: Anthony M. L.
+    family: Liekens
+  - given: Lewis E. H.
+    family: Bingle
+  - given: Christian
+    family: Beck
+  - given: Thorsten
+    family: Lenser
+  - given: Dov J.
+    family: Stekel
+  - given: Jonathan E.
+    family: Rowe
+  container-title: Journal of The Royal Society Interface
+  volume: '6'
+  issue: '34'
+  page: 463-469
+  DOI: 10.1098/rsif.2008.0344
+  URL: http://dx.doi.org/10.1098/rsif.2008.0344
+  issued:
+    date-parts:
+    - - 2009
+- id: friston2013
+  type: article-journal
+  title: Life as we know it
+  author:
+  - given: Karl
+    family: Friston
+  container-title: Journal of The Royal Society Interface
+  volume: '10'
+  issue: '86'
+  page: '20130475'
+  DOI: 10.1098/rsif.2013.0475
+  issued:
+    date-parts:
+    - - 2013
+- id: hopcroft1971
+  type: chapter
+  title: An <span class="nocase">n log n</span> algorithm for minimizing states in a finite automaton
+  author:
+  - given: John
+    family: Hopcroft
+  container-title: Theory of Machines and Computations
+  page: 189-196
+  publisher: Academic Press
+  DOI: 10.1016/b978-0-12-417750-5.50022-1
+  issued:
+    date-parts:
+    - - 1971
+  publisher-place: New York
+  editor:
+  - given: Zvi
+    family: Kohavi
+  - given: Azaria
+    family: Paz
+- id: kirchhoff2018
+  type: article-journal
+  title: 'The Markov blankets of life: autonomy, active inference and the free energy principle'
+  author:
+  - given: Michael
+    family: Kirchhoff
+  - given: Thomas
+    family: Parr
+  - given: Ensor
+    family: Palacios
+  - given: Karl
+    family: Friston
+  - given: Julian
+    family: Kiverstein
+  container-title: Journal of The Royal Society Interface
+  volume: '15'
+  issue: '138'
+  page: '20170792'
+  DOI: 10.1098/rsif.2017.0792
+  issued:
+    date-parts:
+    - - 2018
+- id: kobayashi1963
+  type: book
+  title: Foundations of Differential Geometry, Volume I
+  author:
+  - family: Kobayashi
+    given: Shoshichi
+  - family: Nomizu
+    given: Katsumi
+  publisher: Interscience
+  publisher-place: New York
+  issued:
+    date-parts:
+    - - 1963
+- id: krakauer2020
+  type: article-journal
+  title: The information theory of individuality
+  author:
+  - given: David
+    family: Krakauer
+  - given: Nils
+    family: Bertschinger
+  - given: Eckehard
+    family: Olbrich
+  - given: Jessica C.
+    family: Flack
+  - given: Nihat
+    family: Ay
+  container-title: Theory in Biosciences
+  volume: '139'
+  issue: '2'
+  page: 209-223
+  DOI: 10.1007/s12064-020-00313-7
+  issued:
+    date-parts:
+    - - 2020
+- id: krohn1965
+  type: article-journal
+  title: Algebraic theory of machines. I. Prime decomposition theorem for finite semigroups and machines
+  author:
+  - given: Kenneth
+    family: Krohn
+  - given: John
+    family: Rhodes
+  container-title: Transactions of the American Mathematical Society
+  volume: '116'
+  page: 450-464
+  DOI: 10.1090/s0002-9947-1965-0188316-1
+  URL: http://dx.doi.org/10.1090/S0002-9947-1965-0188316-1
+  issued:
+    date-parts:
+    - - 1965
+- id: levin2022
+  type: article-journal
+  title: 'Technological Approach to Mind Everywhere: An Experimentally-Grounded Framework for Understanding
+    Diverse Bodies and Minds'
+  author:
+  - given: Michael
+    family: Levin
+  container-title: Frontiers in Systems Neuroscience
+  volume: '16'
+  DOI: 10.3389/fnsys.2022.768201
+  issued:
+    date-parts:
+    - - 2022
+  page: 768201
+- id: littman2002
+  type: paper-conference
+  title: Predictive representations of state
+  author:
+  - family: Littman
+    given: Michael L.
+  - family: Sutton
+    given: Richard S.
+  - family: Singh
+    given: Satinder
+  container-title: Advances in Neural Information Processing Systems 14
+  page: 1555-1561
+  publisher: MIT Press
+  publisher-place: Cambridge, MA
+  issued:
+    date-parts:
+    - - 2002
+- id: markevich2004
+  type: article-journal
+  title: Signaling switches and bistability arising from multisite phosphorylation in protein kinase cascades
+  author:
+  - given: Nick I.
+    family: Markevich
+  - given: Jan B.
+    family: Hoek
+  - given: Boris N.
+    family: Kholodenko
+  container-title: The Journal of Cell Biology
+  volume: '164'
+  issue: '3'
+  page: 353-359
+  DOI: 10.1083/jcb.200308060
+  issued:
+    date-parts:
+    - - 2004
+- id: massey1990
+  type: paper-conference
+  title: Causality, feedback and directed information
+  author:
+  - family: Massey
+    given: James L.
+  container-title: Proceedings of the International Symposium on Information Theory and its Applications
+    (ISITA-90)
+  page: 303-305
+  issued:
+    date-parts:
+    - - 1990
+- id: nerode1958
+  type: article-journal
+  title: Linear automaton transformations
+  author:
+  - given: A.
+    family: Nerode
+  container-title: Proceedings of the American Mathematical Society
+  volume: '9'
+  issue: '4'
+  page: 541-544
+  DOI: 10.1090/s0002-9939-1958-0135681-9
+  issued:
+    date-parts:
+    - - 1958
+- id: pfante2014
+  type: article-journal
+  title: Comparison between different methods of level identification
+  author:
+  - given: Oliver
+    family: Pfante
+  - given: Nils
+    family: Bertschinger
+  - given: Eckehard
+    family: Olbrich
+  - given: Nihat
+    family: Ay
+  - given: Jürgen
+    family: Jost
+  container-title: Advances in Complex Systems
+  volume: '17'
+  issue: '02'
+  page: '1450007'
+  DOI: 10.1142/s0219525914500076
+  issued:
+    date-parts:
+    - - 2014
+- id: rutten2000
+  type: article-journal
+  title: 'Universal coalgebra: a theory of systems'
+  author:
+  - given: J. J. M. M.
+    family: Rutten
+  container-title: Theoretical Computer Science
+  volume: '249'
+  issue: '1'
+  page: 3-80
+  DOI: 10.1016/s0304-3975(00)00056-6
+  issued:
+    date-parts:
+    - - 2000
+- id: schreiber2000
+  type: article-journal
+  title: Measuring Information Transfer
+  author:
+  - given: Thomas
+    family: Schreiber
+  container-title: Physical Review Letters
+  volume: '85'
+  issue: '2'
+  page: 461-464
+  DOI: 10.1103/physrevlett.85.461
+  issued:
+    date-parts:
+    - - 2000
+- id: shalizi2001
+  type: article-journal
+  title: 'Computational Mechanics: Pattern and Prediction, Structure and Simplicity'
+  author:
+  - given: Cosma Rohilla
+    family: Shalizi
+  - given: James P.
+    family: Crutchfield
+  container-title: Journal of Statistical Physics
+  volume: '104'
+  issue: 3-4
+  page: 817-879
+  DOI: 10.1023/a:1010388907793
+  issued:
+    date-parts:
+    - - 2001

@@ -1,5 +1,5 @@
 {
-  "pdf_sha256": "224744295c933850d622dea2148135c88055d337c6692dcd9a2db4170cca4b4f",
+  "pdf_sha256": "136e33af5e73bbfb9d19260d2846943c04d3e16a6ce397713ed3a492922fe661",
   "page_count": 12,
   "pages_inspected": [
     1,
@@ -16,5 +16,5 @@
     12
   ],
   "all_pages_inspected": true,
-  "notes": "All 12 pages inspected after the prose revision; the sweep table's thousands separators, which rendered as literal braces ('19{,}683'), now render as plain commas; no figures in this paper. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (179e5a8467ba to 224744295c93); the rendered text is byte-for-byte identical and no page was re-inspected."
+  "notes": "All 12 pages inspected after the migration; citations inside the three proofs, the propositions, both tables and the citeproc reference list render correctly, with no unresolved citation keys. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (167beeab0c38 to 136e33af5e73); the rendered text is byte-for-byte identical and no page was re-inspected."
 }

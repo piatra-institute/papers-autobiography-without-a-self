@@ -1,0 +1,503 @@
+schema: 1
+coverage: reviewed
+reviewed_manuscript_sha256: d5382e383ebc1972a6cd2bcb80f030f13c3c3a16cc9a197de057106ce389aca9
+claims:
+- id: abs-total
+  kind: computation
+  passage: Self-predictable observables are closed under common refinement (proved, and confirmed without
+    exception across 150,964 finite systems) but not under coarsening, which fails in 54,300 of the 65,536
+    systems with four states and two inputs ($82.9\%$) and in $99.8\%$ of sampled six-state systems; a
+    minimal four-state counterexample is given.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /systems_total
+    reported: 150,964
+    units: systems
+    conditions: exhaustive sweep for |Z| <= 4 (|U| = 2, and |U| = 3 at |Z| = 3); fixed-seed samples (seed
+      20260711) otherwise
+    decimals: 0
+- id: abs-fail42
+  kind: computation
+  passage: Self-predictable observables are closed under common refinement (proved, and confirmed without
+    exception across 150,964 finite systems) but not under coarsening, which fails in 54,300 of the 65,536
+    systems with four states and two inputs ($82.9\%$) and in $99.8\%$ of sampled six-state systems; a
+    minimal four-state counterexample is given.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/3/coarser_union_not_closed
+    reported: 54,300
+    units: systems where coarsening fails
+    conditions: '|Z| = 4, |U| = 2, exhaustive'
+    decimals: 0
+- id: abs-sys42
+  kind: computation
+  passage: Self-predictable observables are closed under common refinement (proved, and confirmed without
+    exception across 150,964 finite systems) but not under coarsening, which fails in 54,300 of the 65,536
+    systems with four states and two inputs ($82.9\%$) and in $99.8\%$ of sampled six-state systems; a
+    minimal four-state counterexample is given.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/3/systems
+    reported: 65,536
+    units: systems
+    conditions: '|Z| = 4, |U| = 2, exhaustive'
+    decimals: 0
+- id: abs-pct42
+  kind: computation
+  passage: Self-predictable observables are closed under common refinement (proved, and confirmed without
+    exception across 150,964 finite systems) but not under coarsening, which fails in 54,300 of the 65,536
+    systems with four states and two inputs ($82.9\%$) and in $99.8\%$ of sampled six-state systems; a
+    minimal four-state counterexample is given.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/3/coarser_union_not_closed_percent
+    reported: 82.9\%
+    units: percent of systems
+    conditions: '|Z| = 4, |U| = 2, exhaustive'
+    decimals: 1
+    scale: 1
+- id: abs-pct62
+  kind: computation
+  passage: Self-predictable observables are closed under common refinement (proved, and confirmed without
+    exception across 150,964 finite systems) but not under coarsening, which fails in 54,300 of the 65,536
+    systems with four states and two inputs ($82.9\%$) and in $99.8\%$ of sampled six-state systems; a
+    minimal four-state counterexample is given.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/6/coarser_union_not_closed_percent
+    reported: 99.8\%
+    units: percent of systems
+    conditions: '|Z| = 6, |U| = 2, sample of 15,000'
+    decimals: 1
+    scale: 1
+- id: cr-total
+  kind: computation
+  passage: 'The computation confirms Proposition 5 without exception: across the 150,964 systems in the
+    sweep, comprising every system with at most four states and a fixed-seed sample at five and six states,
+    the common refinement of two closed observables was closed in every case, with zero violations.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /systems_total
+    reported: 150,964
+    units: systems
+    conditions: exhaustive sweep for |Z| <= 4 (|U| = 2, and |U| = 3 at |Z| = 3); fixed-seed samples (seed
+      20260711) otherwise
+    decimals: 0
+- id: tab-0-systems
+  kind: computation
+  passage: '| 2 | 2 | exhaustive | 16 | 0 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/0/systems
+    reported: '16'
+    units: systems
+    conditions: 'states, inputs, mode: 2, 2, exhaustive'
+    decimals: 0
+- id: tab-1-systems
+  kind: computation
+  passage: '| 3 | 2 | exhaustive | 729 | 0 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/1/systems
+    reported: '729'
+    units: systems
+    conditions: 'states, inputs, mode: 3, 2, exhaustive'
+    decimals: 0
+- id: tab-2-systems
+  kind: computation
+  passage: '| 3 | 3 | exhaustive | 19,683 | 0 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/2/systems
+    reported: 19,683
+    units: systems
+    conditions: 'states, inputs, mode: 3, 3, exhaustive'
+    decimals: 0
+- id: tab-3-systems
+  kind: computation
+  passage: '| 4 | 2 | exhaustive | 65,536 | 54,300 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/3/systems
+    reported: 65,536
+    units: systems
+    conditions: 'states, inputs, mode: 4, 2, exhaustive'
+    decimals: 0
+- id: tab-3-fails
+  kind: computation
+  passage: '| 4 | 2 | exhaustive | 65,536 | 54,300 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/3/coarser_union_not_closed
+    reported: 54,300
+    units: systems where coarsening fails
+    conditions: 'states, inputs, mode: 4, 2, exhaustive'
+    decimals: 0
+- id: tab-4-systems
+  kind: computation
+  passage: '| 5 | 2 | sample | 25,000 | 24,443 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/4/systems
+    reported: 25,000
+    units: systems
+    conditions: 'states, inputs, mode: 5, 2, sample'
+    decimals: 0
+- id: tab-4-fails
+  kind: computation
+  passage: '| 5 | 2 | sample | 25,000 | 24,443 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/4/coarser_union_not_closed
+    reported: 24,443
+    units: systems where coarsening fails
+    conditions: 'states, inputs, mode: 5, 2, sample'
+    decimals: 0
+- id: tab-5-systems
+  kind: computation
+  passage: '| 4 | 3 | sample | 25,000 | 12,244 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/5/systems
+    reported: 25,000
+    units: systems
+    conditions: 'states, inputs, mode: 4, 3, sample'
+    decimals: 0
+- id: tab-5-fails
+  kind: computation
+  passage: '| 4 | 3 | sample | 25,000 | 12,244 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/5/coarser_union_not_closed
+    reported: 12,244
+    units: systems where coarsening fails
+    conditions: 'states, inputs, mode: 4, 3, sample'
+    decimals: 0
+- id: tab-6-systems
+  kind: computation
+  passage: '| 6 | 2 | sample | 15,000 | 14,975 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/6/systems
+    reported: 15,000
+    units: systems
+    conditions: 'states, inputs, mode: 6, 2, sample'
+    decimals: 0
+- id: tab-6-fails
+  kind: computation
+  passage: '| 6 | 2 | sample | 15,000 | 14,975 |'
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/6/coarser_union_not_closed
+    reported: 14,975
+    units: systems where coarsening fails
+    conditions: 'states, inputs, mode: 6, 2, sample'
+    decimals: 0
+- id: s63-fail
+  kind: computation
+  passage: At four states and two inputs the closed observables fail to be closed under coarsening in
+    54,300 of 65,536 systems, $82.9\%$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/3/coarser_union_not_closed
+    reported: 54,300
+    units: systems
+    conditions: '|Z| = 4, |U| = 2, exhaustive'
+    decimals: 0
+- id: s63-sys
+  kind: computation
+  passage: At four states and two inputs the closed observables fail to be closed under coarsening in
+    54,300 of 65,536 systems, $82.9\%$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/3/systems
+    reported: 65,536
+    units: systems
+    conditions: '|Z| = 4, |U| = 2, exhaustive'
+    decimals: 0
+- id: s63-pct
+  kind: computation
+  passage: At four states and two inputs the closed observables fail to be closed under coarsening in
+    54,300 of 65,536 systems, $82.9\%$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/3/coarser_union_not_closed_percent
+    reported: 82.9\%
+    units: percent
+    conditions: '|Z| = 4, |U| = 2, exhaustive'
+    decimals: 1
+    scale: 1
+- id: s63-pct52
+  kind: computation
+  passage: With the input alphabet held at two, the rate rises to $97.8\%$ at five states and $99.8\%$
+    at six; with three inputs at four states it is $49.0\%$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/4/coarser_union_not_closed_percent
+    reported: 97.8\%
+    units: percent
+    conditions: '|Z| = 5, |U| = 2, sample of 25,000'
+    decimals: 1
+    scale: 1
+- id: s63-pct62
+  kind: computation
+  passage: With the input alphabet held at two, the rate rises to $97.8\%$ at five states and $99.8\%$
+    at six; with three inputs at four states it is $49.0\%$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/6/coarser_union_not_closed_percent
+    reported: 99.8\%
+    units: percent
+    conditions: '|Z| = 6, |U| = 2, sample of 15,000'
+    decimals: 1
+    scale: 1
+- id: s63-pct43
+  kind: computation
+  passage: With the input alphabet held at two, the rate rises to $97.8\%$ at five states and $99.8\%$
+    at six; with three inputs at four states it is $49.0\%$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/5/coarser_union_not_closed_percent
+    reported: 49.0\%
+    units: percent
+    conditions: '|Z| = 4, |U| = 3, sample of 25,000'
+    decimals: 1
+    scale: 1
+- id: concl-pct
+  kind: computation
+  passage: It is either supplied from outside or, when it must be found from the dynamics alone, lacks
+    a unique coarsest form, because self-predictable observables are closed under common refinement while
+    closure under coarsening fails in $82.9\%$ of four-state two-input systems.
+  evidence:
+    file: simulation/output/results.json
+    run_id: closure
+    pointer: /sweep/3/coarser_union_not_closed_percent
+    reported: 82.9\%
+    units: percent
+    conditions: '|Z| = 4, |U| = 2, exhaustive'
+    decimals: 1
+    scale: 1
+- id: fernando
+  kind: source
+  passage: '@fernando2009 built explicit molecular circuits that learn associatively; @biswas2021 find
+    associative memory across published transcriptional-network models; the bistable multisite-phosphorylation
+    cascade of @markevich2004 supplies the hysteresis that stores the acquired state.'
+  evidence:
+    citation_id: fernando2009
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1098/rsif.2008.0344; the abstract proposes a gene regulatory network capable
+      of Hebbian associative learning in a single cell, developed as a mathematical model whose simulations
+      show a learned response.
+- id: biswas
+  kind: source
+  passage: '@fernando2009 built explicit molecular circuits that learn associatively; @biswas2021 find
+    associative memory across published transcriptional-network models; the bistable multisite-phosphorylation
+    cascade of @markevich2004 supplies the hysteresis that stores the acquired state.'
+  evidence:
+    citation_id: biswas2021
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1016/j.isci.2021.102131; the abstract reports that GRNs from a wide range
+      of model systems are predicted to possess several types of memory, including Pavlovian conditioning.
+- id: markevich
+  kind: source
+  passage: '@fernando2009 built explicit molecular circuits that learn associatively; @biswas2021 find
+    associative memory across published transcriptional-network models; the bistable multisite-phosphorylation
+    cascade of @markevich2004 supplies the hysteresis that stores the acquired state.'
+  evidence:
+    citation_id: markevich2004
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1083/jcb.200308060; the abstract shows bistability and hysteresis arising
+      from distributive two-site MAPK phosphorylation.
+- id: levin
+  kind: source
+  passage: '@levin2022 interprets such results as memory and minimal agency in substrates without neurons.'
+  evidence:
+    citation_id: levin2022
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.3389/fnsys.2022.768201; the abstract presents TAME, a framework for cognition
+      and agency in unconventional substrates, including transcriptional spaces.
+- id: friston-blanket
+  kind: source
+  passage: 'A discovered self, however it is selected from the antichain of maximal self-predictable coarse-grainings,
+    can be compared with the partitions that other theories draw for the same purpose: the internal states
+    of a Markov blanket [@friston2013; @kirchhoff2018], the components that an individuality measure assigns
+    to a system as opposed to its environment [@krakauer2020], and the informationally closed coarse-graining.'
+  evidence:
+    citation_id: friston2013
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1098/rsif.2013.0475; the abstract describes a Markov blanket separating
+      internal and external states.
+- id: kirchhoff-blanket
+  kind: source
+  passage: 'A discovered self, however it is selected from the antichain of maximal self-predictable coarse-grainings,
+    can be compared with the partitions that other theories draw for the same purpose: the internal states
+    of a Markov blanket [@friston2013; @kirchhoff2018], the components that an individuality measure assigns
+    to a system as opposed to its environment [@krakauer2020], and the informationally closed coarse-graining.'
+  evidence:
+    citation_id: kirchhoff2018
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1098/rsif.2017.0792; the abstract treats Markov blankets as the statistical
+      boundaries of living systems.
+- id: krakauer-indiv
+  kind: source
+  passage: 'A discovered self, however it is selected from the antichain of maximal self-predictable coarse-grainings,
+    can be compared with the partitions that other theories draw for the same purpose: the internal states
+    of a Markov blanket [@friston2013; @kirchhoff2018], the components that an individuality measure assigns
+    to a system as opposed to its environment [@krakauer2020], and the informationally closed coarse-graining.'
+  evidence:
+    citation_id: krakauer2020
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1007/s12064-020-00313-7; the abstract proposes information-theoretic individuality
+      separating aggregates from their environment.
+- id: biehl-critique
+  kind: source
+  passage: The critiques of blanket-based individuation [@biehl2021] identify where to search, since they
+    already exhibit systems in which the blanket partition is non-unique or misleading.
+  evidence:
+    citation_id: biehl2021
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.3390/e23030293; the abstract shows that various definitions of the Markov
+      blanket are not equivalent and gives counterexamples to the free energy lemma.
+- id: schreiber-te
+  kind: source
+  passage: Directed information and transfer entropy [@massey1990; @schreiber2000] are the stochastic
+    analogues of the same quantity, and they too are conditioned on a chosen partition of the variables
+    into internal and external.
+  evidence:
+    citation_id: schreiber2000
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1103/PhysRevLett.85.461; the abstract derives transfer entropy by conditioning
+      transition probabilities to distinguish driving from responding elements.
+- id: crutchfield-causal
+  kind: source
+  passage: It is the deterministic predictive state of the system at the observable $x$, the state defined
+    by which future observations the past permits, in the sense of the predictive-state representations
+    of @littman2002 and the causal states of @crutchfield1989; its minimal predictive formulation is that
+    of @{shalizi2001}.
+  evidence:
+    citation_id: crutchfield1989
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1103/PhysRevLett.63.105; the abstract reconstructs minimal equations of
+      motion from measurement sequences, the construction whose states are the causal states.
+- id: littman-psr
+  kind: source
+  passage: It is the deterministic predictive state of the system at the observable $x$, the state defined
+    by which future observations the past permits, in the sense of the predictive-state representations
+    of @littman2002 and the causal states of @crutchfield1989; its minimal predictive formulation is that
+    of @{shalizi2001}.
+  evidence:
+    citation_id: littman2002
+    locator: Abstract (NeurIPS proceedings page)
+    verified: true
+    verification_note: 'The NeurIPS 2001 proceedings page gives the abstract: states represented by multi-step
+      action-conditional predictions of future observations.'
+- id: driven-def
+  kind: definition
+  passage: 'A **driven system** is a triple $(Z, U, F)$ with $Z$ a finite set of states, $U$ a finite
+    input alphabet, and $F : Z \times U \to Z$ a transition map.'
+  rationale: Defines the systems the paper treats.
+- id: fibre-def
+  kind: definition
+  passage: The autobiographical fibre is the quotient $A_x = F_x / {\sim_x}$.
+  rationale: States the construction under examination.
+- id: closure-def
+  kind: definition
+  passage: A partition $\rho$ is autobiographically closed when, for any two input words from a common
+    start with identical $\rho$-output trajectories, the words leave the system in $\sim^{\rho}$-equivalent
+    states.
+  rationale: Defines self-predictable observables.
+- id: prop-nerode
+  kind: interpretation
+  passage: The relation $\sim_x$ is Nerode equivalence restricted to $F_x$, and $A_x$ is canonically the
+    fibre $Q_x$ of the minimal realization.
+  rationale: Proposition proved in the text.
+- id: prop-holonomy
+  kind: interpretation
+  passage: The group of units of $H_x$ is the Krohn-Rhodes holonomy group of the tile $Q_x$.
+  rationale: Proposition proved in the text.
+- id: prop-curvature
+  kind: interpretation
+  passage: No principal or linear connection has the self-history action as its holonomy, in general.
+  rationale: Proposition proved in the text from invertibility of parallel transport and variable fibre
+    size.
+- id: prop-crypticity
+  kind: interpretation
+  passage: $\Delta_{\mathrm{ext}}(\pi) = 0$ if and only if the minimal $\pi$-transducer is observable
+    from its output under unknown inputs, equivalently has zero structural crypticity, equivalently synchronizes
+    to its output.
+  rationale: Proposition proved in the text.
+- id: prop-refinement
+  kind: interpretation
+  passage: If $\rho, \sigma \in \mathrm{Cl}(Z)$ then $\rho \wedge \sigma \in \mathrm{Cl}(Z)$.
+  rationale: Proposition proved in the text and checked by the sweep (zero violations, /common_refinement_violations_total).
+- id: counterexample
+  kind: interpretation
+  passage: Their coarser union has blocks $\{0\}, \{1, 2, 3\}$ and is not closed.
+  rationale: The four-state counterexample recorded in /min_coarser_union_counterexample with its witness;
+    checkable by hand from the transition table.
+- id: no-canonical-self
+  kind: interpretation
+  passage: A canonical self, defined from the dynamics alone as the coarsest nontrivial observable that
+    predicts itself, does not exist in general.
+  rationale: 'Consequence of the coarsening failure: the maximal closed coarse-grainings form an antichain.'
+- id: informational-closure
+  kind: interpretation
+  passage: Informational closure, the property that a coarse-graining's future is conditionally independent
+    of the fine detail given its own past, generates the same Moore-family structure and the same closure
+    operator [@bertschinger2008; @pfante2014].
+  rationale: Structural correspondence argued in the text; the Limitations section states that no explicit
+    isomorphism is given.
+- id: three-states
+  kind: interpretation
+  passage: Three states are too few for the failure to appear, since the only partitions between the discrete
+    and the one-block partition are single merges, and the coarser union of two distinct single merges
+    is the one-block partition, which is closed.
+  rationale: Combinatorial argument in the text, consistent with zero failures in the exhaustive 3-state
+    sweeps.
+- id: deterministic-scope
+  kind: assumption
+  passage: The analysis is deterministic and finite.
+  rationale: Scope assumption; the stochastic reduction is stated but not proved.
+- id: open-problem
+  kind: interpretation
+  passage: If a finite system exists in which a discovered self and a Markov blanket disagree about which
+    states are internal memory, and in which the self-history monoid on the discovered self's fibres separates
+    systems that the blanket cannot, that disagreement would be the first content specific to the construction.
+  rationale: States the open problem and what would count as new content.
+runs:
+- id: closure
+  required: true
+  record: verification/closure.json
